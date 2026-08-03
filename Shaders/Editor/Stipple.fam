@@ -1,0 +1,10 @@
+{
+	"shaderfamily":
+	{
+		"root": "Shaders/PBR.fam",
+		"shaders":
+		{
+			"solid": "Shaders/Editor/Stipple.frag"
+		}
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"shaderfamily":
+	{
+		"textures":
+		[
+			"Diffuse",
+			"Normal",
+			"AO/Metal/Rough",
+			"Displacement",
+			"Emission"
+		],
+		"shaders":
+		{
+			"vertex": "Shaders/PBR/PBR.vert",
+			"solid": "Shaders/PBR/PBR.frag",
+			"masked": "Shaders/PBR/PBR_Masked.frag",
+			"transparency": "Shaders/PBR/PBR_Transparent.frag",
+			"transparencyms": "Shaders/PBR/PBR_TransparentMS.frag",
+			"multimaterial2": "Shaders/PBR/PBR_Multi2.frag",
+			"multimaterial3": "Shaders/PBR/PBR_Multi3.frag",
+			"shadowvertex": "Shaders/Shadow/Shadow.vert",
+			"shadowmasked": "Shaders/Shadow/Shadow_Masked.frag",
+			"shadowtransparency": "Shaders/Shadow/Shadow_Transparent.frag",
+			"quadscontrol": "Shaders/Tessellation/Quads.tesc",
+			"quadsevaluation": "Shaders/Tessellation/Quads.tese",
+			"triscontrol": "Shaders/Tessellation/Tris.tesc",
+			"trisevaluation": "Shaders/Tessellation/Tris.tese",
+			"shadowquadscontrol": "Shaders/Shadow/Quads.tesc",
+			"shadowquadsevaluation": "Shaders/Shadow/Quads.tese",
+			"shadowtriscontrol": "Shaders/Shadow/Tris.tesc",
+			"shadowtrisevaluation": "Shaders/Shadow/Tris.tese",
+			"shadowvertexmasked": "Shaders/Shadow/Shadow_Masked.vert",
+			"meshlayer": "Shaders/MeshLayer/MeshLayer.vert"
+		}
+	}
+}

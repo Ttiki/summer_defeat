@@ -1,0 +1,19 @@
+{
+	"project":
+	{
+		"brushtexelspermeter": 400,
+		"debugcommandline": "-devmode +map \"$MAPFILE\"",
+		"debugexecutable": "Summer defeat_d.exe",
+		"engineversion": "5.1.0",
+		"filetypeblacklist": "bin, meta, collider",
+		"gridbasesize": 0.16,
+		"language": "C++",
+		"majorgridlines": 8,
+		"name": "Summer defeat",
+		"password": ")}SaGW2RzI9{[vi^Gc[Ey=p6HLYX{qx,&LKDZL!c0D!B}|X5Fc@(g)7MndB3CbE&",
+		"runcommandline": "-devmode +map \"$MAPFILE\"",
+		"runexecutable": "Summer defeat.exe",
+		"template": "Common",
+		"uuid": "0de60c6d-3c52-42d5-9b86-111c9452ee45"
+	}
+}

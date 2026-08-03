@@ -1,0 +1,491 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<Filter Include="Source Files">
+			<UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+			<Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+		</Filter>
+		<Filter Include="Header Files">
+			<UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+			<Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+		</Filter>
+		<Filter Include="Resource Files">
+			<UniqueIdentifier>{54f0adeb-8b31-4c2f-979f-e4ee6840b918}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source Files\Steamworks">
+			<UniqueIdentifier>{6db9dbd5-6d5c-4f70-94e5-523fbcf69c75}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source Files\Game">
+			<UniqueIdentifier>{1a430258-2bc8-4d33-b6f1-84a974bba2c0}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Header Files\Game">
+			<UniqueIdentifier>{fffb3907-599d-4991-8eb4-0b47570890c1}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClCompile Include="Source\Leadwerks.cpp">
+			<Filter>Source Files</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\main.cpp">
+			<Filter>Source Files</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Steamworks\Steamworks.cpp">
+			<Filter>Source Files\Steamworks</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\SelectDevice.cpp">
+			<Filter>Source Files</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Encryption.cpp">
+			<Filter>Source Files</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Game\Game.cpp">
+			<Filter>Source Files\Game</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Game\GameMenu.cpp">
+			<Filter>Source Files\Game</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Entities\AI\Enemy.cpp">
+			<Filter>Source Files\Entities\AI</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Entities\AI\Monster.cpp">
+			<Filter>Source Files\Entities\AI</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Entities\Appearance\ChangeEmission.cpp">
+			<Filter>Source Files\Entities\Appearance</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Entities\Appearance\ChangeVisibility.cpp">
+			<Filter>Source Files\Entities\Appearance</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Entities\BaseComponent.cpp">
+			<Filter>Source Files\Entities</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Entities\Logic\MultiRelay.cpp">
+			<Filter>Source Files\Entities\Logic</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Entities\Logic\Relay.cpp">
+			<Filter>Source Files\Entities\Logic</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Entities\Motion\Mover.cpp">
+			<Filter>Source Files\Entities\Motion</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Entities\Physics\SlidingDoor.cpp">
+			<Filter>Source Files\Entities\Physics</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Entities\Physics\SwingingDoor.cpp">
+			<Filter>Source Files\Entities\Physics</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Entities\Player\CameraControls.cpp">
+			<Filter>Source Files\Entities\Player</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Entities\Player\FPSPlayer.cpp">
+			<Filter>Source Files\Entities\Player</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Entities\Player\Player.cpp">
+			<Filter>Source Files\Entities\Player</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Entities\Player\VRPlayer.cpp">
+			<Filter>Source Files\Entities\Player</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Entities\Sound\AmbientNoise.cpp">
+			<Filter>Source Files\Entities\Sound</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Entities\Sound\ImpactNoise.cpp">
+			<Filter>Source Files\Entities\Sound</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Entities\Triggers\CollisionTrigger.cpp">
+			<Filter>Source Files\Entities\Triggers</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Entities\Triggers\PushButton.cpp">
+			<Filter>Source Files\Entities\Triggers</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Entities\Weapons\Bullet.cpp">
+			<Filter>Source Files\Entities\Weapons</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Entities\Weapons\FPSGun.cpp">
+			<Filter>Source Files\Entities\Weapons</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Entities\Weapons\FPSWeapon.cpp">
+			<Filter>Source Files\Entities\Weapons</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Entities\Weapons\Projectile.cpp">
+			<Filter>Source Files\Entities\Weapons</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Entities\Player\MoveBalloon.cpp">
+			<Filter>Source Files\Entities\Player</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Entities\Logic\GameManager.cpp">
+			<Filter>Source Files\Entities\Logic</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Entities\AI\FlamingoSpawner.cpp">
+			<Filter>Source Files\Entities\AI</Filter>
+		</ClCompile>
+		<ClCompile Include="Source\Entities\Player\GuiController.cpp">
+			<Filter>Source Files\Entities\Player</Filter>
+		</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="Source\resource.h">
+			<Filter>Header Files</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\targetver.h">
+			<Filter>Header Files</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\ComponentSystem.h">
+			<Filter>Header Files</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\CustomEvents.h">
+			<Filter>Header Files</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Game\Game.h">
+			<Filter>Header Files\Game</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Game\GameMenu.h">
+			<Filter>Header Files\Game</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Encryption.h">
+			<Filter>Header Files</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Entities\AI\Enemy.h">
+			<Filter>Header Files\Entities\AI</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Entities\AI\Monster.h">
+			<Filter>Header Files\Entities\AI</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Entities\Appearance\ChangeEmission.h">
+			<Filter>Header Files\Entities\Appearance</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Entities\Appearance\ChangeVisibility.h">
+			<Filter>Header Files\Entities\Appearance</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Entities\BaseComponent.h">
+			<Filter>Header Files\Entities</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Entities\Logic\MultiRelay.h">
+			<Filter>Header Files\Entities\Logic</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Entities\Logic\Relay.h">
+			<Filter>Header Files\Entities\Logic</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Entities\Motion\Mover.h">
+			<Filter>Header Files\Entities\Motion</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Entities\Physics\SlidingDoor.h">
+			<Filter>Header Files\Entities\Physics</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Entities\Physics\SwingingDoor.h">
+			<Filter>Header Files\Entities\Physics</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Entities\Player\CameraControls.h">
+			<Filter>Header Files\Entities\Player</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Entities\Player\FPSPlayer.h">
+			<Filter>Header Files\Entities\Player</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Entities\Player\Player.h">
+			<Filter>Header Files\Entities\Player</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Entities\Player\VRPlayer.h">
+			<Filter>Header Files\Entities\Player</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Entities\Sound\AmbientNoise.h">
+			<Filter>Header Files\Entities\Sound</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Entities\Sound\ImpactNoise.h">
+			<Filter>Header Files\Entities\Sound</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Entities\Triggers\CollisionTrigger.h">
+			<Filter>Header Files\Entities\Triggers</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Entities\Triggers\PushButton.h">
+			<Filter>Header Files\Entities\Triggers</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Entities\Weapons\Bullet.h">
+			<Filter>Header Files\Entities\Weapons</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Entities\Weapons\FPSGun.h">
+			<Filter>Header Files\Entities\Weapons</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Entities\Weapons\FPSWeapon.h">
+			<Filter>Header Files\Entities\Weapons</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Entities\Weapons\Projectile.h">
+			<Filter>Header Files\Entities\Weapons</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Steamworks\public\steam\isteamapps.h">
+			<Filter>Header Files\Steamworks\public\steam</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Steamworks\public\steam\isteamappticket.h">
+			<Filter>Header Files\Steamworks\public\steam</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Steamworks\public\steam\isteamclient.h">
+			<Filter>Header Files\Steamworks\public\steam</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Steamworks\public\steam\isteamcontroller.h">
+			<Filter>Header Files\Steamworks\public\steam</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Steamworks\public\steam\isteamdualsense.h">
+			<Filter>Header Files\Steamworks\public\steam</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Steamworks\public\steam\isteamfriends.h">
+			<Filter>Header Files\Steamworks\public\steam</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Steamworks\public\steam\isteamgamecoordinator.h">
+			<Filter>Header Files\Steamworks\public\steam</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Steamworks\public\steam\isteamgameserver.h">
+			<Filter>Header Files\Steamworks\public\steam</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Steamworks\public\steam\isteamgameserverstats.h">
+			<Filter>Header Files\Steamworks\public\steam</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Steamworks\public\steam\isteamhtmlsurface.h">
+			<Filter>Header Files\Steamworks\public\steam</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Steamworks\public\steam\isteamhttp.h">
+			<Filter>Header Files\Steamworks\public\steam</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Steamworks\public\steam\isteaminput.h">
+			<Filter>Header Files\Steamworks\public\steam</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Steamworks\public\steam\isteaminventory.h">
+			<Filter>Header Files\Steamworks\public\steam</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Steamworks\public\steam\isteammatchmaking.h">
+			<Filter>Header Files\Steamworks\public\steam</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Steamworks\public\steam\isteammusic.h">
+			<Filter>Header Files\Steamworks\public\steam</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Steamworks\public\steam\isteammusicremote.h">
+			<Filter>Header Files\Steamworks\public\steam</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Steamworks\public\steam\isteamnetworking.h">
+			<Filter>Header Files\Steamworks\public\steam</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Steamworks\public\steam\isteamnetworkingmessages.h">
+			<Filter>Header Files\Steamworks\public\steam</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Steamworks\public\steam\isteamnetworkingsockets.h">
+			<Filter>Header Files\Steamworks\public\steam</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Steamworks\public\steam\isteamnetworkingutils.h">
+			<Filter>Header Files\Steamworks\public\steam</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Steamworks\public\steam\isteamparentalsettings.h">
+			<Filter>Header Files\Steamworks\public\steam</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Steamworks\public\steam\isteamps3overlayrenderer.h">
+			<Filter>Header Files\Steamworks\public\steam</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Steamworks\public\steam\isteamremoteplay.h">
+			<Filter>Header Files\Steamworks\public\steam</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Steamworks\public\steam\isteamremotestorage.h">
+			<Filter>Header Files\Steamworks\public\steam</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Steamworks\public\steam\isteamscreenshots.h">
+			<Filter>Header Files\Steamworks\public\steam</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Steamworks\public\steam\isteamtimeline.h">
+			<Filter>Header Files\Steamworks\public\steam</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Steamworks\public\steam\isteamugc.h">
+			<Filter>Header Files\Steamworks\public\steam</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Steamworks\public\steam\isteamuser.h">
+			<Filter>Header Files\Steamworks\public\steam</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Steamworks\public\steam\isteamuserstats.h">
+			<Filter>Header Files\Steamworks\public\steam</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Steamworks\public\steam\isteamutils.h">
+			<Filter>Header Files\Steamworks\public\steam</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Steamworks\public\steam\isteamvideo.h">
+			<Filter>Header Files\Steamworks\public\steam</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Steamworks\public\steam\matchmakingtypes.h">
+			<Filter>Header Files\Steamworks\public\steam</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Steamworks\public\steam\steam_api.h">
+			<Filter>Header Files\Steamworks\public\steam</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Steamworks\public\steam\steam_api_common.h">
+			<Filter>Header Files\Steamworks\public\steam</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Steamworks\public\steam\steam_api_flat.h">
+			<Filter>Header Files\Steamworks\public\steam</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Steamworks\public\steam\steam_api_internal.h">
+			<Filter>Header Files\Steamworks\public\steam</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Steamworks\public\steam\steam_gameserver.h">
+			<Filter>Header Files\Steamworks\public\steam</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Steamworks\public\steam\steamclientpublic.h">
+			<Filter>Header Files\Steamworks\public\steam</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Steamworks\public\steam\steamencryptedappticket.h">
+			<Filter>Header Files\Steamworks\public\steam</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Steamworks\public\steam\steamhttpenums.h">
+			<Filter>Header Files\Steamworks\public\steam</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Steamworks\public\steam\steamnetworkingfakeip.h">
+			<Filter>Header Files\Steamworks\public\steam</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Steamworks\public\steam\steamnetworkingtypes.h">
+			<Filter>Header Files\Steamworks\public\steam</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Steamworks\public\steam\steamps3params.h">
+			<Filter>Header Files\Steamworks\public\steam</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Steamworks\public\steam\steamtypes.h">
+			<Filter>Header Files\Steamworks\public\steam</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Steamworks\public\steam\steamuniverse.h">
+			<Filter>Header Files\Steamworks\public\steam</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Steamworks\Steamworks.h">
+			<Filter>Header Files\Steamworks</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Entities\Player\MoveBalloon.h">
+			<Filter>Header Files\Entities\Player</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Entities\Logic\GameManager.h">
+			<Filter>Header Files\Entities\Logic</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Entities\AI\FlamingoSpawner.h">
+			<Filter>Header Files\Entities\AI</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Entities\Player\GuiController.h">
+			<Filter>Header Files\Entities\Player</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ResourceCompile Include="Source\project.rc">
+			<Filter>Resource Files</Filter>
+		</ResourceCompile>
+		<ResourceCompile Include="Source\projecticon.ico">
+			<Filter>Resource Files</Filter>
+		</ResourceCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="packages.config" />
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="Source Files\Entities">
+			<UniqueIdentifier>{69ce07d7-e65f-4c4e-a627-a97bdc13c230}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="Source Files\Entities\AI">
+			<UniqueIdentifier>{45dc44a2-47ea-4be2-a113-a430a3497e5a}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="Header Files\Entities">
+			<UniqueIdentifier>{a79d591e-1c4b-4200-9559-5ae579db1e4e}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="Header Files\Entities\AI">
+			<UniqueIdentifier>{739678cb-50fc-4013-97b6-e298cb9fd77d}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="Source Files\Entities\Appearance">
+			<UniqueIdentifier>{a01e8110-a7ef-4610-a1ae-0ba3e3e6bcd5}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="Header Files\Entities\Appearance">
+			<UniqueIdentifier>{1b51d9b7-c5ed-435c-b9ef-bb23b2f8624a}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="Source Files\Entities\Logic">
+			<UniqueIdentifier>{6892cbc6-f0a3-48f5-8b0a-4d9466f9647a}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="Header Files\Entities\Logic">
+			<UniqueIdentifier>{36171f40-66be-49d3-92d7-bafc6779f616}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="Source Files\Entities\Motion">
+			<UniqueIdentifier>{67a853b0-ae8a-4ce5-ac8b-4ceb819c1c46}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="Header Files\Entities\Motion">
+			<UniqueIdentifier>{04f73f4e-7cdf-4869-801b-e7815a4f8da6}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="Source Files\Entities\Physics">
+			<UniqueIdentifier>{52b1d528-dc6f-4452-82c9-ff95c4d8eb6f}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="Header Files\Entities\Physics">
+			<UniqueIdentifier>{ef58432b-a168-41a7-a3e9-b25612b307a7}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="Source Files\Entities\Player">
+			<UniqueIdentifier>{1e6c0aa2-dfba-4265-860a-61015c186020}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="Header Files\Entities\Player">
+			<UniqueIdentifier>{e3b14dbc-b26d-4a9a-a59b-f35c2d964122}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="Source Files\Entities\Sound">
+			<UniqueIdentifier>{a1919a8b-c5ac-4c33-8fcb-6236ad911bf9}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="Header Files\Entities\Sound">
+			<UniqueIdentifier>{7ab68e04-1ec3-4034-a7a0-3fa7b1fc782e}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="Source Files\Entities\Triggers">
+			<UniqueIdentifier>{d236cb1a-bf59-43b6-ae5e-5b6d9dcccb09}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="Header Files\Entities\Triggers">
+			<UniqueIdentifier>{a1dcdc44-7d18-4044-b400-d795e158717e}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="Source Files\Entities\Weapons">
+			<UniqueIdentifier>{a581b943-5920-4af7-9576-dd1adf44e705}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="Header Files\Entities\Weapons">
+			<UniqueIdentifier>{7b69e02e-a766-4211-87d4-0a983ac8acb1}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="Header Files\Steamworks">
+			<UniqueIdentifier>{d94766ba-9cc4-483e-bd20-9efd7f4c20df}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="Header Files\Steamworks\public">
+			<UniqueIdentifier>{631df258-0a21-4dd3-9251-89dee0985a2b}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="Header Files\Steamworks\public\steam">
+			<UniqueIdentifier>{268abb5e-7e45-42d7-88cd-bfa4f7bf733a}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+</Project>

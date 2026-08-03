@@ -1,0 +1,13 @@
+{
+	"shaderfamily":
+	{
+		"root": "./PBR.fam",
+		"shaders":
+		{
+			"solid": "Shaders/Unlit/Unlit.frag",
+			"masked": "Shaders/Unlit/Unlit_Masked.frag",
+			"transparency": "Shaders/Unlit/Unlit_Transparent.frag",
+			"transparencyms": "Shaders/Unlit/Unlit_TransparentMS.frag"
+		}	
+	}
+}

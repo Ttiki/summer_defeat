@@ -1,0 +1,1099 @@
+{
+	"scene": {
+		"base": "Maps/start.map",
+		"entities": [
+			{
+				"camera": {
+					"clearcolor": [
+						0.125,
+						0.125,
+						0.125
+					],
+					"clearmode": 3,
+					"fov": 90.0,
+					"range": [
+						0.10000000149011612,
+						1000.0
+					]
+				},
+				"castshadows": false,
+				"collisiontype": 0,
+				"components": {},
+				"damping": [
+					0.10000000149011612,
+					0.10000000149011612
+				],
+				"decallayers": 1,
+				"elasticity": 0.4000000059604645,
+				"extras": {},
+				"flowgraphnodeposition": [
+					1033,
+					270
+				],
+				"friction": [
+					0.5,
+					0.8999999761581421
+				],
+				"gravity": true,
+				"group": [
+					"Entities"
+				],
+				"mass": 0.0,
+				"matrix": [
+					"0x3f800000",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x3f7746ea",
+					"0x3e8483e8",
+					"0x0",
+					"0x0",
+					"0xbe8483e8",
+					"0x3f7746ea",
+					"0x0",
+					"0x0",
+					"0x3fa3d70a",
+					"0xc023d70a",
+					"0x3f800000"
+				],
+				"name": "Camera",
+				"navobstacle": false,
+				"physicsmode": 0,
+				"pickmode": 0,
+				"position": [
+					"0x0",
+					"0x3fa3d70a",
+					"0xc023d70a"
+				],
+				"quaternion": [
+					"0xbe05a8a3",
+					"0x80000000",
+					"0x80000000",
+					"0x3f7dcf55"
+				],
+				"reflection": true,
+				"renderlayers": 1,
+				"rotation": [
+					"0x416ffff8",
+					"0x0",
+					"0x0"
+				],
+				"scale": [
+					"0x3f800000",
+					"0x3f7fffff",
+					"0x3f7fffff"
+				],
+				"sweptcollision": false,
+				"terrainblending": [
+					1.0,
+					1.0,
+					0.25
+				],
+				"terrainblendmode": true,
+				"uuid": "14c391ac-887a-4cdf-a4d9-24028e2f3518",
+				"viewrange": 0.0
+			},
+			{
+				"castshadows": true,
+				"collisiontype": 4,
+				"components": {
+					"MoveBalloon": {
+						"f_moveSpeed": 0.15
+					}
+				},
+				"connections": [
+					{
+						"component": "MoveBalloon",
+						"input": "AddScore",
+						"output": "Collide",
+						"targetcomponent": "GameManager",
+						"targetentity": "db642cbd-da51-4ece-b591-19a0efcf747b"
+					}
+				],
+				"damping": [
+					0.10000000149011612,
+					0.10000000149011612
+				],
+				"decallayers": 1,
+				"elasticity": 0.4000000059604645,
+				"extras": {},
+				"flowgraphnodeposition": [
+					458,
+					303
+				],
+				"friction": [
+					0.5,
+					0.8999999761581421
+				],
+				"gravity": true,
+				"group": [
+					"Models"
+				],
+				"mass": 0.10000000149011612,
+				"matrix": [
+					"0x3f800000",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x3f800000",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x3f800000",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x3f800000"
+				],
+				"model": {
+					"islimb": false,
+					"path": "Models/Miscelaneous/tube1.mdl"
+				},
+				"name": "tube1",
+				"navobstacle": true,
+				"physicsmode": 1,
+				"pickmode": 1,
+				"position": [
+					"0x0",
+					"0x0",
+					"0x0"
+				],
+				"quaternion": [
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x3f800000"
+				],
+				"reflection": true,
+				"renderlayers": 1,
+				"rotation": [
+					"0x0",
+					"0x0",
+					"0x0"
+				],
+				"scale": [
+					"0x3f800000",
+					"0x3f800000",
+					"0x3f800000"
+				],
+				"sweptcollision": false,
+				"terrainblending": [
+					1.0,
+					1.0,
+					0.25
+				],
+				"terrainblendmode": false,
+				"uuid": "6efa0731-a981-4e01-9b88-8767a0e5fc7b",
+				"viewrange": 0.0
+			},
+			{
+				"brush": {
+					"faces": [
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 96,
+							"localmappingplane": [
+								[
+									1.0,
+									-0.0,
+									-0.0,
+									-0.0
+								],
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								]
+							],
+							"mappingplane": [
+								[
+									1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/Developer/trigger.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 0,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 104,
+							"localmappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								]
+							],
+							"mappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/Developer/trigger.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 4,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 112,
+							"localmappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								0.0,
+								0.49999988079071045
+							],
+							"mappingplane": [
+								[
+									-1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/Developer/trigger.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 8,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 120,
+							"localmappingplane": [
+								[
+									1.0,
+									-0.0,
+									-0.0,
+									-0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								0.0,
+								0.49999988079071045
+							],
+							"mappingplane": [
+								[
+									1.0,
+									-0.0,
+									-0.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/Developer/trigger.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 12,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 128,
+							"localmappingplane": [
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								0.0,
+								0.49999988079071045
+							],
+							"mappingplane": [
+								[
+									-0.0,
+									-0.0,
+									-1.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/Developer/trigger.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 16,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						},
+						{
+							"bevel": false,
+							"edgesize": 0.0,
+							"indicecount": 4,
+							"indices": 136,
+							"localmappingplane": [
+								[
+									-0.0,
+									-0.0,
+									1.0,
+									-0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingoffset": [
+								0.0,
+								0.49999988079071045
+							],
+							"mappingplane": [
+								[
+									-0.0,
+									-0.0,
+									1.0,
+									0.0
+								],
+								[
+									-0.0,
+									-1.0,
+									-0.0,
+									0.0
+								]
+							],
+							"mappingscale": [
+								400.0,
+								400.0
+							],
+							"materials": [
+								{
+									"path": "Materials/Developer/trigger.mat"
+								},
+								null,
+								null
+							],
+							"mesh": 0,
+							"meshvertexcount": 4,
+							"meshvertexstart": 20,
+							"smoothgroups": 0,
+							"subdivision": [
+								1,
+								1
+							]
+						}
+					],
+					"meshes": [
+						{
+							"indicecount": 24,
+							"indices": 2064,
+							"indicestride": 4,
+							"materials": [
+								{
+									"path": "Materials/Developer/trigger.mat"
+								},
+								null,
+								null
+							],
+							"mode": 4,
+							"vertexcount": 24,
+							"vertexlayout": "0.9.8e",
+							"vertexstride": 76,
+							"vertices": 144
+						}
+					],
+					"vertexcount": 8,
+					"vertices": 0
+				},
+				"castshadows": true,
+				"collisiontype": 4,
+				"components": {
+					"CollisionTrigger": {
+						"enabled": true,
+						"once": false
+					}
+				},
+				"connections": [
+					{
+						"component": "CollisionTrigger",
+						"input": "GameOver",
+						"output": "Collide",
+						"targetcomponent": "GameManager",
+						"targetentity": "db642cbd-da51-4ece-b591-19a0efcf747b"
+					}
+				],
+				"damping": [
+					0.10000000149011612,
+					0.10000000149011612
+				],
+				"decallayers": 1,
+				"elasticity": 0.4000000059604645,
+				"extras": {},
+				"flowgraphnodeposition": [
+					458,
+					175
+				],
+				"friction": [
+					0.5,
+					0.8999999761581421
+				],
+				"gravity": true,
+				"group": [
+					"Brushes"
+				],
+				"mass": 0.0,
+				"matrix": [
+					"0x3f800000",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x3f800000",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x3f800000",
+					"0x0",
+					"0xb5000000",
+					"0xbf73ef80",
+					"0x0",
+					"0x3f800000"
+				],
+				"name": "TriggerFail",
+				"navobstacle": true,
+				"physicsmode": 1,
+				"pickmode": 1,
+				"position": [
+					"0xb5000000",
+					"0xbf73ef80",
+					"0x0"
+				],
+				"quaternion": [
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x3f800000"
+				],
+				"reflection": true,
+				"renderlayers": 1,
+				"rotation": [
+					"0x0",
+					"0x0",
+					"0x0"
+				],
+				"scale": [
+					"0x3f800000",
+					"0x3f800000",
+					"0x3f800000"
+				],
+				"sweptcollision": false,
+				"terrainblending": [
+					1.0,
+					1.0,
+					0.25
+				],
+				"terrainblendmode": false,
+				"uuid": "bae14519-ba9d-4b1e-a7c3-d2e933083508",
+				"viewrange": 0.0
+			},
+			{
+				"castshadows": false,
+				"collisiontype": 0,
+				"components": {
+					"GameManager": {
+						"booleanvalue": false,
+						"floatvalue": 0.0,
+						"integervalue": 0,
+						"optionvalue": 0,
+						"pathvalue": "",
+						"rgbavalue": [
+							1.0,
+							1.0,
+							1.0,
+							1.0
+						],
+						"rgbvalue": [
+							1.0,
+							1.0,
+							1.0,
+							null
+						],
+						"stringvalue": "\"\"",
+						"vec2value": [
+							0.0,
+							0.0,
+							null
+						],
+						"vec3value": [
+							0.0,
+							0.0,
+							0.0
+						],
+						"vec4value": [
+							0.0,
+							0.0,
+							0.0,
+							0.0
+						]
+					}
+				},
+				"connections": [
+					{
+						"component": "GameManager",
+						"input": "UpdateGui",
+						"output": "AddScore",
+						"targetcomponent": "GuiController",
+						"targetentity": "14c391ac-887a-4cdf-a4d9-24028e2f3518"
+					}
+				],
+				"damping": [
+					0.10000000149011612,
+					0.10000000149011612
+				],
+				"decallayers": 1,
+				"elasticity": 0.4000000059604645,
+				"extras": {},
+				"flowgraphnodeposition": [
+					810,
+					271
+				],
+				"friction": [
+					0.5,
+					0.8999999761581421
+				],
+				"gravity": true,
+				"group": [
+					"Entities"
+				],
+				"mass": 0.0,
+				"matrix": [
+					"0x3f800000",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x3f800000",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x3f800000",
+					"0x0",
+					"0x0",
+					"0x3ff5c28f",
+					"0xc023d70a",
+					"0x3f800000"
+				],
+				"name": "GameManager",
+				"navobstacle": false,
+				"physicsmode": 0,
+				"pickmode": 0,
+				"position": [
+					"0x0",
+					"0x3ff5c28f",
+					"0xc023d70a"
+				],
+				"quaternion": [
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x3f800000"
+				],
+				"reflection": true,
+				"renderlayers": 1,
+				"rotation": [
+					"0x0",
+					"0x0",
+					"0x0"
+				],
+				"scale": [
+					"0x3f800000",
+					"0x3f800000",
+					"0x3f800000"
+				],
+				"sweptcollision": false,
+				"terrainblending": [
+					1.0,
+					1.0,
+					0.25
+				],
+				"terrainblendmode": false,
+				"uuid": "db642cbd-da51-4ece-b591-19a0efcf747b",
+				"viewrange": 0.0
+			},
+			{
+				"castshadows": false,
+				"collisiontype": 0,
+				"components": {
+					"FlamingoSpawner": {
+						"f_spawnInterval": 10000.0,
+						"ws_spawnModel": "\"Flamingo\""
+					}
+				},
+				"damping": [
+					0.10000000149011612,
+					0.10000000149011612
+				],
+				"decallayers": 1,
+				"elasticity": 0.4000000059604645,
+				"extras": {},
+				"friction": [
+					0.5,
+					0.8999999761581421
+				],
+				"gravity": true,
+				"group": [
+					"Entities"
+				],
+				"mass": 0.0,
+				"matrix": [
+					"0x3f800000",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x3f800000",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x3f800000",
+					"0x0",
+					"0x0",
+					"0x404ccccc",
+					"0x0",
+					"0x3f800000"
+				],
+				"name": "Pivot",
+				"navobstacle": false,
+				"physicsmode": 0,
+				"pickmode": 0,
+				"position": [
+					"0x0",
+					"0x404ccccc",
+					"0x0"
+				],
+				"quaternion": [
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x3f800000"
+				],
+				"reflection": true,
+				"renderlayers": 1,
+				"rotation": [
+					"0x0",
+					"0x0",
+					"0x0"
+				],
+				"scale": [
+					"0x3f800000",
+					"0x3f800000",
+					"0x3f800000"
+				],
+				"sweptcollision": false,
+				"terrainblending": [
+					1.0,
+					1.0,
+					0.25
+				],
+				"terrainblendmode": false,
+				"uuid": "26417862-6daa-4357-afc8-dbfc5363b643",
+				"viewrange": 0.0
+			},
+			{
+				"castshadows": true,
+				"collisiontype": 0,
+				"color": [
+					2.0,
+					1.899999976158142,
+					1.7000000476837158,
+					1.0
+				],
+				"damping": [
+					0.10000000149011612,
+					0.10000000149011612
+				],
+				"decallayers": 1,
+				"directionallight": {
+					"cascadedistance": [
+						10.0,
+						20.0,
+						40.0,
+						80.0
+					],
+					"range": [
+						-500.0,
+						500.0
+					],
+					"shadowmapsize": 1024
+				},
+				"elasticity": 0.4000000059604645,
+				"friction": [
+					0.5,
+					0.8999999761581421
+				],
+				"gravity": true,
+				"matrix": [
+					"0x3f51b3f4",
+					"0x32800000",
+					"0xbf12d5e5",
+					"0x0",
+					"0x3ef08fae",
+					"0x3f12d5ea",
+					"0x3f2bc74d",
+					"0x0",
+					"0x3ea8715a",
+					"0xbf51b3ef",
+					"0x3ef08fb8",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x0",
+					"0x3f800000"
+				],
+				"navobstacle": false,
+				"physicsmode": 0,
+				"pickmode": 0,
+				"position": [
+					"0x0",
+					"0x0",
+					"0x0"
+				],
+				"quaternion": [
+					"0xbee17926",
+					"0xbe8890bd",
+					"0x3e0e2ed1",
+					"0x3f5890a5"
+				],
+				"reflection": true,
+				"renderlayers": 1,
+				"rotation": [
+					"0x425c0000",
+					"0x420c0000",
+					"0x0"
+				],
+				"scale": [
+					"0x3f800000",
+					"0x3f800000",
+					"0x3f800000"
+				],
+				"sweptcollision": false,
+				"terrainblending": [
+					1.0,
+					1.0,
+					0.25
+				],
+				"terrainblendmode": false,
+				"uuid": "0ee56835-179f-4b64-a298-7cae55e84758",
+				"viewrange": 0.0
+			}
+		],
+		"environment": {
+			"ambientlight": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"diffusereflection": {
+				"path": "Materials/Environment/Default/diffuse.dds"
+			},
+			"fog": true,
+			"fogangle": [
+				3.0,
+				14.0
+			],
+			"fogcolor": [
+				0.6431372761726379,
+				0.8196079134941101,
+				1.0,
+				1.0
+			],
+			"fogrange": [
+				0.0,
+				620.0
+			],
+			"gitransmission": 2.0,
+			"iblintensity": 0.5,
+			"sea": {
+				"seacolor": [
+					0.2352941334247589,
+					0.46666669845581055,
+					0.5176470875740051,
+					0.0470588281750679
+				],
+				"sealevel": 0.0,
+				"waveheight": 0.25,
+				"waveiterations": 16,
+				"wavescale": 1.0,
+				"wavespeed": 1.0
+			},
+			"skybox": {
+				"path": "Materials/Environment/Default/skybox.dds"
+			},
+			"skyintensity": 1.0,
+			"specularreflection": {
+				"path": "Materials/Environment/Default/specular.dds"
+			},
+			"sunangle": [
+				0.0,
+				0.0
+			],
+			"suncolor": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"tonemappingmode": 0
+		},
+		"extras": {
+			"viewports": [
+				{
+					"cameraposition": [
+						2.87571,
+						2.18334,
+						-3.95851
+					],
+					"camerarotation": [
+						1.99797,
+						324.858,
+						0.0
+					],
+					"gridsize": 0,
+					"view": 0,
+					"zoom": 1.42815
+				},
+				{
+					"cameraposition": [
+						1.31697,
+						-2.7063e-07,
+						-1.51347
+					],
+					"camerarotation": [
+						90.0,
+						0.0,
+						0.0
+					],
+					"gridsize": 3,
+					"view": 3,
+					"zoom": 60.0
+				},
+				{
+					"cameraposition": [
+						0.310359,
+						1.77006,
+						0.0
+					],
+					"camerarotation": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"gridsize": 2,
+					"view": 5,
+					"zoom": 60.0
+				},
+				{
+					"cameraposition": [
+						-3.15532e-08,
+						-0.535077,
+						0.176459
+					],
+					"camerarotation": [
+						0.0,
+						90.0,
+						0.0
+					],
+					"gridsize": -1,
+					"view": 1,
+					"zoom": 86.4
+				}
+			]
+		},
+		"groups": [
+			{
+				"id": "1964668448",
+				"name": "Brushes"
+			},
+			{
+				"id": "1964666512",
+				"name": "Entities"
+			},
+			{
+				"id": "1964670384",
+				"name": "Models"
+			}
+		]
+	}
+} ŽÂõ@Ü˜w?Âu@ŽÂõÀÜ˜w?Âu@ŽÂõÀÜ˜w?ÂuÀŽÂõ@Ü˜w?ÂuÀŽÂõ@Ü˜w¿Âu@ŽÂõÀÜ˜w¿Âu@ŽÂõÀÜ˜w¿ÂuÀŽÂõ@Ü˜w¿ÂuÀ                           ŽÂõ@Ü˜w?ÂuÀ      €?    þÿ?A  À@  €?   €   €   €   €  €¿                    
+×#?ŽÂõÀÜ˜w?ÂuÀ      €?      @Á  À@  €?   €   €   €   €  €¿                    
+×#?ŽÂõ@Ü˜w?Âu@      €?    þÿ?A  ÀÀ  €?   €   €   €   €  €¿                    
+×#?ŽÂõÀÜ˜w?Âu@      €?      @Á  ÀÀ  €?   €   €   €   €  €¿                    
+×#?ŽÂõ@Ü˜w¿Âu@      €¿    þÿ?Á  ÀÀ  €¿           €   €  €¿                    
+×#?ŽÂõÀÜ˜w¿Âu@      €¿      @A  ÀÀ  €¿           €   €  €¿                    
+×#?ŽÂõ@Ü˜w¿ÂuÀ      €¿    þÿ?Á  À@  €¿           €   €  €¿                    
+×#?ŽÂõÀÜ˜w¿ÂuÀ      €¿      @A  À@  €¿           €   €  €¿                    
+×#?ŽÂõ@Ü˜w?Âu@   €      €?þÿ?Á¼Žô>  €¿           €  €¿   €                    
+×#?ŽÂõÀÜ˜w?Âu@   €      €?  @A¼Žô>  €¿           €  €¿   €                    
+×#?ŽÂõ@Ü˜w¿Âu@   €      €?þÿ?ÁD`@  €¿           €  €¿   €                    
+×#?ŽÂõÀÜ˜w¿Âu@   €      €?  @AD`@  €¿           €  €¿   €                    
+×#?ŽÂõÀÜ˜w?ÂuÀ   €   €  €¿  @Á¼Žô>  €?           €  €¿   €                    
+×#?ŽÂõ@Ü˜w?ÂuÀ   €   €  €¿þÿ?A¼Žô>  €?           €  €¿   €                    
+×#?ŽÂõÀÜ˜w¿ÂuÀ   €   €  €¿  @ÁD`@  €?           €  €¿   €                    
+×#?ŽÂõ@Ü˜w¿ÂuÀ   €   €  €¿þÿ?AD`@  €?           €  €¿   €                    
+×#?ŽÂõÀÜ˜w?Âu@  €¿          ÀÀ¼Žô>          €¿   €  €¿   €                    
+×#?ŽÂõÀÜ˜w?ÂuÀ  €¿          À@¼Žô>          €¿   €  €¿   €                    
+×#?ŽÂõÀÜ˜w¿Âu@  €¿          ÀÀD`@          €¿   €  €¿   €                    
+×#?ŽÂõÀÜ˜w¿ÂuÀ  €¿          À@D`@          €¿   €  €¿   €                    
+×#?ŽÂõ@Ü˜w¿Âu@  €?          À@D`@   €   €  €?   €  €¿   €                    
+×#?ŽÂõ@Ü˜w¿ÂuÀ  €?          ÀÀD`@   €   €  €?   €  €¿   €                    
+×#?ŽÂõ@Ü˜w?Âu@  €?          À@¼Žô>   €   €  €?   €  €¿   €                    
+×#?ŽÂõ@Ü˜w?ÂuÀ  €?          ÀÀ¼Žô>   €   €  €?   €  €¿   €                    
+×#?                         
+      	                                          

@@ -1,0 +1,20 @@
+{
+	"shaderfamily":
+	{
+		"shaders":
+		{
+			"vertex": "Shaders/Terrain/Terrain.vert",
+			"shadowvertex": "Shaders/Terrain/Terrain.vert",
+			"shadowvertexmasked": "Shaders/Terrain/Terrain.vert",			
+			
+			"quadscontrol": "Shaders/Terrain/Terrain.tesc",
+			"quadsevaluation": "Shaders/Terrain/Terrain.tese",			
+			"shadowquadscontrol": "Shaders/Terrain/Terrain.tesc",
+			"shadowquadsevaluation": "Shaders/Terrain/Terrain.tese",
+			
+			"solid": "Shaders/Terrain/Terrain.frag",
+			"masked": "Shaders/Terrain/Terrain.frag",
+			"shadowmasked": "Shaders/Terrain/Terrain.frag"			
+		}
+	}
+}

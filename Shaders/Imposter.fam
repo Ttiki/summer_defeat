@@ -1,0 +1,18 @@
+{
+	"shaderfamily":
+	{
+		"textures":
+		[
+			"Base",
+			"Normal",
+			"Metal/Roughness"
+		],
+		"shaders":
+		{
+			"vertex": "Shaders/Imposter/Imposter.vert",
+			"solid": "Shaders/Imposter/Imposter.frag",
+			"masked": "Shaders/Imposter/Imposter_Masked.frag",
+			"meshlayer": "Shaders/Imposter/MeshLayer.vert"
+		}
+	}
+}

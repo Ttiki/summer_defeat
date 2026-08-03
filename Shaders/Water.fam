@@ -1,0 +1,19 @@
+{
+	"shaderfamily":
+	{		
+		"root": "./PBR.fam",
+		"textures":
+		[
+			"Surface",
+			"Foam",
+			"Bubbles",
+			"White caps"
+		],
+		"shaders":
+		{
+			"vertex": "Shaders/Water/Water.vert",
+			"transparency": "Shaders/Water/Water_Transparent.frag",
+			"transparencyms": "Shaders/Water/Water_TransparentMS.frag"
+		}
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"shaderfamily":
+	{
+		"root": "Shaders/PBR.fam",
+		"shaders":
+		{
+			"solid": "Shaders/Editor/Show2DArrayTexture.frag",
+			"transparency": "Shaders/Editor/Show2DArrayTexture.frag"	
+		}	
+	}
+}
