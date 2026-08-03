@@ -10,7 +10,7 @@ public:
     virtual void Start();
     virtual void Update();
    
-    virtual void GameOver();//in
+    void GameOver();//in
 	virtual void AddScore(int points = 10);//inout
 
 	virtual bool Load(table& properties, std::shared_ptr<Stream> binstream, std::shared_ptr<Scene> scene, const LoadFlags flags, std::shared_ptr<Object> extra);

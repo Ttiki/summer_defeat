@@ -14,12 +14,11 @@ void GameManager::Update()
     
 }
 
-void GameManager::GameOver()
+void GameManager::GameOver()//in
 {
 	Print("Game Over!");
 	i_currentTotalPoint += i_score;
 	LoadScene(this->GetEntity()->GetWorld(), "Maps/mainmenu.map");
-
 }
 
 void GameManager::AddScore(int points)//inout
