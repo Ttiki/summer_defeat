@@ -122,6 +122,9 @@
 		<ClCompile Include="Source\Entities\Player\GuiController.cpp">
 			<Filter>Source Files\Entities\Player</Filter>
 		</ClCompile>
+		<ClCompile Include="Source\Entities\Weapons\test.cpp">
+			<Filter>Source Files\Entities\Weapons</Filter>
+		</ClCompile>
 	</ItemGroup>
 	<ItemGroup>
 		<ClInclude Include="Source\resource.h">
@@ -360,6 +363,9 @@
 		</ClInclude>
 		<ClInclude Include="Source\Entities\Player\GuiController.h">
 			<Filter>Header Files\Entities\Player</Filter>
+		</ClInclude>
+		<ClInclude Include="Source\Entities\Weapons\test.h">
+			<Filter>Header Files\Entities\Weapons</Filter>
 		</ClInclude>
 	</ItemGroup>
 	<ItemGroup>

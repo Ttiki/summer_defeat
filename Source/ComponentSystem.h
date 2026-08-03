@@ -24,6 +24,7 @@
 #include "Entities/Triggers/PushButton.h"
 #include "Entities/Weapons/Bullet.h"
 #include "Entities/Weapons/FPSGun.h"
+#include "Entities/Weapons/test.h"
 
 void RegisterComponents()
 {
@@ -48,4 +49,5 @@ void RegisterComponents()
 	RegisterComponent<PushButton>();
 	RegisterComponent<Bullet>();
 	RegisterComponent<FPSGun>();
+	RegisterComponent<test>();
 }

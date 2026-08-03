@@ -6,6 +6,9 @@
 		"inputs":
 		[
 			{
+				"name": "GameOver"
+			},
+			{
 				"name": "AddScore"
 			}
 		],
@@ -16,7 +19,12 @@
 			}
 		],
 		"properties":
-		{}
-
+		[
+			{
+				"label": "Flamingo Spawner",
+				"name": "flamingoSpawner",
+				"value": null
+			}
+		]
 	}
 }

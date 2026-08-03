@@ -2,6 +2,8 @@
 #include "Leadwerks.h"
 #include "GameManager.h"
 
+#include "../AI/FlamingoSpawner.h"
+
 using namespace Leadwerks;
 
 void GameManager::Start()
@@ -18,6 +20,8 @@ void GameManager::GameOver()//in
 {
 	Print("Game Over!");
 	i_currentTotalPoint += i_score;
+    flamingoSpawner->GetComponent<FlamingoSpawner>()->spawnedFlamingos.clear();
+	this->GetEntity()->GetWorld()->GetEntities().clear();
 	LoadScene(this->GetEntity()->GetWorld(), "Maps/mainmenu.map");
 }
 
@@ -35,6 +39,10 @@ bool GameManager::Load(table& properties, shared_ptr<Stream> binstream, shared_p
     if (properties["i_currentTotalPoint"].is_number()) i_currentTotalPoint = properties["i_currentTotalPoint"];
     if (properties["i_totalPoint"].is_number()) i_totalPoint = properties["i_totalPoint"];
 	if (properties["i_bestScore"].is_number()) i_bestScore = properties["i_bestScore"];
+    if (properties["flamingoSpawner"].is_string())
+    {
+        flamingoSpawner = scene->GetEntity(std::string(properties["flamingoSpawner"]));
+    }
     return BaseComponent::Load(properties, binstream, scene, flags, extra);
 }
 
@@ -44,6 +52,7 @@ bool GameManager::Save(table& properties, shared_ptr<Stream> binstream, shared_p
     properties["i_currentTotalPoint"] = i_currentTotalPoint;
     properties["i_totalPoint"] = i_totalPoint;
     properties["i_bestScore"] = i_bestScore;
+    if (flamingoSpawner) properties["flamingoSpawner"] = std::string(flamingoSpawner->GetUuid());
     return BaseComponent::Save(properties, binstream, scene, flags, extra);
 }
 
@@ -55,12 +64,12 @@ shared_ptr<Component> GameManager::Copy()
 
 std::any GameManager::CallMethod(shared_ptr<Component> sender, const WString& name, const std::vector<std::any>& arguments)
 {
-    /*if (name == "MyMethod")
+    if (name == "GameOver")
     {
-        MyMethod();
-        return false;
-    }*/
-    return BaseComponent::CallMethod(sender, name, arguments);
+        GameOver();
+        return true;
+    }
+    return false;
 }
 
 std::vector<int> GameManager::GetScore()

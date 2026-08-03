@@ -167,6 +167,7 @@
 		<ClCompile Include="Source\Entities\Logic\GameManager.cpp" />
 		<ClCompile Include="Source\Entities\AI\FlamingoSpawner.cpp" />
 		<ClCompile Include="Source\Entities\Player\GuiController.cpp" />
+		<ClCompile Include="Source\Entities\Weapons\test.cpp" />
 	</ItemGroup>
 	<ItemGroup>
 		<ClInclude Include="Source\ComponentSystem.h" />
@@ -248,6 +249,7 @@
 		<ClInclude Include="Source\Entities\Logic\GameManager.h" />
 		<ClInclude Include="Source\Entities\AI\FlamingoSpawner.h" />
 		<ClInclude Include="Source\Entities\Player\GuiController.h" />
+		<ClInclude Include="Source\Entities\Weapons\test.h" />
 	</ItemGroup>
 	<ItemGroup>
 		<ResourceCompile Include="Source\project.rc" />

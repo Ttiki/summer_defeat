@@ -21,7 +21,8 @@ void MoveBalloon::Update()
 void MoveBalloon::Collide(shared_ptr<Entity> collidedentity, const Vec3& position, const Vec3& normal, const float speed)
 {
 	if (collidedentity->GetCollisionType() == COLLISION_PLAYER) {
-		Print("Collided with obstacle!");
+		//Print("Collided with obstacle!");
+        collidedentity.reset();
         collidedentity = nullptr;
 		FireOutputs("Collide");
         

@@ -22,7 +22,7 @@ void FlamingoSpawner::Update()
 sol::function FlamingoSpawner::SpawnFlamingo()
 {
 	float random = Random(-3.5f, 3.5f);
-	shared_ptr<Model> mdl = LoadModel(world, "Models/Miscelaneous/flamingo.mdl");
+	auto mdl = LoadModel(world, "Models/Miscelaneous/flamingo.mdl");
 	mdl->SetPosition(random, this->GetEntity()->GetPosition().y, this->GetEntity()->GetPosition().z);
 	mdl->SetMass(5.0f);
 	mdl->SetGravity(-2.0f);

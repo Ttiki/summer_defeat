@@ -7,10 +7,12 @@ using namespace Leadwerks;
 class GameManager : public BaseComponent//Component
 {
 public: 
+	shared_ptr<Entity> flamingoSpawner;//"Flamingo Spawner" 
+
     virtual void Start();
     virtual void Update();
    
-    void GameOver();//in
+    virtual void GameOver();//in
 	virtual void AddScore(int points = 10);//inout
 
 	virtual bool Load(table& properties, std::shared_ptr<Stream> binstream, std::shared_ptr<Scene> scene, const LoadFlags flags, std::shared_ptr<Object> extra);
